@@ -1,0 +1,9 @@
+public static void writeSequence(int n) {
+    if (n == 1) {
+        System.out.print("1 ");
+    } else if (n > 1){
+        System.out.print((n + 1) / 2 + " ");
+        writeSequence(n - 2);
+        System.out.print((n + 1) / 2 + " ");
+    }
+}

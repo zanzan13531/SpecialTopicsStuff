@@ -1,0 +1,10 @@
+public static String starString(int n) {
+    String temp = "";
+    if (n > 0) {
+        temp += starString(n - 1);
+        temp += starString(n - 1);
+        return(temp);
+    } else  {
+        return("*");
+    }
+}

@@ -1,0 +1,7 @@
+public static int multiplyEvens(int n) {
+    if (n > 1) {
+        return(n * 2 * multiplyEvens(n - 1));
+    } else {
+        return(2);
+    }
+}
