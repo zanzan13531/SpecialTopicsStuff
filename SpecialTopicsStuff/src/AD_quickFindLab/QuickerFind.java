@@ -18,7 +18,7 @@ public class QuickerFind implements UnionFind {
 	
 	public void Union(int a, int b) {
 		
-		thingy[b] = a;
+		thingy[Find(a)] = Find(b);
 		
 	}
 	
