@@ -31,7 +31,7 @@ public class WeightedQuickFind implements UnionFind {
 		} else {
 			
 			thingy[a] = Find(thingy[a]);
-			return (Find(thingy[a]));
+			return (thingy[a]);
 			
 		}
 		
