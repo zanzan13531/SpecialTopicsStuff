@@ -36,4 +36,13 @@ public class QuickerFind implements UnionFind {
 		
 	}
 	
+	public String toString() {
+		String s = "";
+		for (int i = 0; i < sizey; i++) {
+			s += thingy[i];
+		}
+		
+		return (s);
+	}
+	
 }
